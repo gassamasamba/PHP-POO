@@ -31,3 +31,8 @@ $homm1->setPrenom("Julien");
 echo "Homme1 a pour prenom " . $homm1->getPrenom() . "<br>";
 $homm1 -> setNom("Cottet");
 echo "Homme1 a pour nom " . $homm1->getNom() . "<br>";
+$homm2 = new Homme();
+ echo "Prenom est " . $homm2->getPrenom();
+ /*
+ les proprietes de $homm2 sont null car les changements de valeurs avec getter et setter ne s'applique qu'a seul objet $homm1
+ */
